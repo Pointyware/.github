@@ -1,0 +1,54 @@
+name: CI / Build Multiplatform Application
+
+on:
+  workflow_call:
+    inputs:
+      android:
+        type: string
+        default: "android"
+      desktop:
+        type: string
+        default: "desktop"
+      ios:
+        type: string
+        default: "ios"
+      browser:
+        type: string
+        default: "browser"
+
+jobs:
+  build-app-android:
+    if: ${{ inputs.android != "" }}
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Setup
+        uses: ./.github/workflows/checkout-java-gradle.yml
+      - name: Build Android
+        run: ./gradlew buildDebug buildRelease
+
+  build-app-ios:
+    if: ${{ inputs.ios != "" }}
+    runs-on: macos-14
+    steps:
+      - name: Setup
+        uses: ./.github/workflows/checkout-java-gradle.yml
+      - name: Build iOS
+        run: ./gradlew build${{ inputs.android }}
+    
+  build-app-desktop:
+    if: ${{ inputs.desktop != "" }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup
+        uses: ./.github/workflows/checkout-java-gradle.yml
+      - name: Build Desktop
+        run: ./gradlew build${{ inputs.desktop }}
+    
+  build-app-browser:
+    if: ${{ inputs.browser != "" }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup
+        uses: ./.github/workflows/checkout-java-gradle.yml
+      - name: Build Browser
+        run: ./gradlew build${{ inputs.browser }}
