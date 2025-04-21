@@ -4,7 +4,7 @@ about: Sprint review with a brief retrospective section.
 title: Sprint Review - Iteration <Number>
 labels: review + retrospective
 assignees: ''
-
+type: Task
 ---
 
 # Iteration &lt;Number&gt; - &lt;Title&gt;
