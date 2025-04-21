@@ -4,7 +4,7 @@ about: Small work item that may be awkward to state as a user story - usually a 
 title: "[TASK] "
 labels: enhancement
 assignees: ''
-
+type: "Task"
 ---
 
 # Discussion
