@@ -4,7 +4,7 @@ about: Report unexpected or undesirable behavior.
 title: "[BUG] "
 labels: bug
 assignees: ''
-
+type: Bug
 ---
 
 # Context
