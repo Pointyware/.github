@@ -4,7 +4,7 @@ about: Idea for a new feature or feature modification to enhance the application
 title: "[FEATURE] "
 labels: enhancement
 assignees: ''
-
+type: Feature
 ---
 
 # User Story
