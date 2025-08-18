@@ -1,7 +1,7 @@
 ---
 name: Sprint Review
 about: Sprint review with a brief retrospective section.
-title: Sprint Review - Iteration <Number>
+title: "[SPRINT REVIEW] Iteration <Number>"
 labels: review + retrospective
 assignees: ''
 type: Task
