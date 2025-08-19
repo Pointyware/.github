@@ -1,7 +1,7 @@
 # Pointyware
 Software with a point
 
-## Ongoing Projects
+## Ongoing Public Projects
 
 ### Social
 * https://github.com/Pointyware/CommonSense
@@ -10,6 +10,8 @@ Software with a point
 ### AI
 * https://github.com/Pointyware/Artes
 * https://github.com/Pointyware/AI-Licensing
+* https://github.com/Pointyware/Ember
+* https://github.com/Pointyware/Disco
 
 ### Services
 * https://github.com/Pointyware/XYZ
@@ -23,3 +25,7 @@ Software with a point
 ### Personal
 * https://github.com/Pointyware/Accountability
 * https://github.com/Pointyware/Timer
+
+## Private Projects
+* https://github.comm/Pointyware/Cymatics
+* https://github.comm/Pointyware/Particle-Toy
