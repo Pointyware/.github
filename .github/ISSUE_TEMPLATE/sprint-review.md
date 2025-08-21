@@ -2,9 +2,9 @@
 name: Sprint Review
 about: Sprint review with a brief retrospective section.
 title: "[SPRINT REVIEW] Iteration <Number>"
-labels: review + retrospective
+labels: 
 assignees: ''
-type: Task
+type: "Review + Retrospective"
 ---
 
 # Iteration &lt;Number&gt; - &lt;Title&gt;
